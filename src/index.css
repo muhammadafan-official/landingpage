@@ -1,0 +1,15 @@
+@import "tailwindcss";
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; /* normal */
+}
+
+/* Bold text */
+h1, h2, h3, h4, h5, h6, strong, b {
+  font-weight: 700; /* bold */
+}
+
+/* Optional: medium weight for subheadings */
+p, span {
+  font-weight: 500; /* medium */
+}
