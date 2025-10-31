@@ -90,13 +90,13 @@ const LandingPage = () => {
       </section>
 
       {/* ===== WHO CAN JOIN SECTION (Image Left, Text Right, Centered Text) ===== */}
-<section className="w-full flex flex-col md:flex-row-reverse items-center justify-between py-12 px-5 bg-[#f07c00] gap-10">
+<section className="w-full flex flex-col md:flex-row-reverse items-center justify-between py-1 px-5 bg-[#f07c00] gap-4 md:gap-5">
   {/* Right (Now on Desktop) → Text Boxes */}
-  <div className="max-w-2xl w-full flex flex-col gap-6 items-center md:items-end">
+  <div className="max-w-2xl w-full flex flex-col gap-2 md:gap-3 items-center md:items-end">
     
     {/* Box 1 */}
-    <div className="flex flex-col justify-center items-center text-center px-6 py-6 md:px-10 md:py-8 bg-yellow-100 shadow-2xl w-full sm:w-[90%] rounded-xl">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-black mb-4 text-black tracking-wide">
+    <div className="flex flex-col justify-center items-center text-center px-3 py-2 md:px-4 md:py-3 bg-yellow-100 shadow-2xl w-full sm:w-[90%] rounded-xl">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-black mb-1 text-black tracking-wide">
         Who Can Join Us
       </h2>
       <p className="text-base sm:text-lg md:text-xl leading-relaxed text-black font-semibold">
@@ -108,8 +108,8 @@ const LandingPage = () => {
     </div>
 
     {/* Box 2 */}
-    <div className="flex flex-col justify-center items-center text-center px-6 py-4 md:px-8 md:py-4 bg-[#ffd699] shadow-2xl w-full sm:w-[90%] rounded-xl">
-      <p className="text-lg sm:text-xl md:text-2xl font-black mb-2 text-black tracking-wide">
+    <div className="flex flex-col justify-center items-center text-center px-3 py-1.5 md:px-4 md:py-2 bg-[#ffd699] shadow-2xl w-full sm:w-[90%] rounded-xl">
+      <p className="text-lg sm:text-xl md:text-2xl font-black mb-1 text-black tracking-wide">
         Separate Classes For
       </p>
       <p className="text-lg sm:text-xl md:text-2xl font-black text-black tracking-wide">
@@ -120,14 +120,15 @@ const LandingPage = () => {
   </div>
 
   {/* Left (Now on Desktop) → Image */}
-  <div className="flex justify-center items-center w-full md:w-[40%] overflow-hidden bg-transparent mt-6 md:mt-0">
+  <div className="flex justify-center items-center w-full md:w-[35%] overflow-hidden bg-transparent mt-0 md:mt-0">
     <img
-      src="/img (3).png"
+      src="/img (2).png"
       alt="Who Can Join"
-      className="w-[90%] h-[300px] sm:h-[350px] md:h-[400px] object-cover scale-110 object-[50%_35%] bg-transparent border-none shadow-none"
+      className="w-full max-w-[400px] sm:max-w-[500px] md:max-w-[550px] lg:max-w-[600px] h-auto object-contain object-center bg-transparent border-none shadow-none"
     />
   </div>
 </section>
+
 
 
     </div>
