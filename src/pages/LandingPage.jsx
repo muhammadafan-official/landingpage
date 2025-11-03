@@ -56,9 +56,10 @@ const LandingPage = () => {
   <h1 className="text-white text-5xl md:text-7xl font-black tracking-[0.35em] uppercase z-10 leading-tight">
     DESIGN
   </h1>
-  <h1 className="text-black text-6xl md:text-8xl font-black tracking-[0.4em] uppercase z-10 leading-tight">
-    COURSE
-  </h1>
+  <h1 className="text-black text-6xl sm:text-5xl md:text-7xl lg:text-8xl font-black tracking-[0.35em] uppercase z-10 leading-tight">
+  COURSE
+</h1>
+
 </div>
 
 
