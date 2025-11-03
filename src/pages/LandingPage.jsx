@@ -45,20 +45,24 @@ const LandingPage = () => {
 />
 
 
-        {/* ===== Hero Headings ===== */}
-        <h4 className="text-white text-lg md:text-2xl font-black mb-2 tracking-wide z-10">
-          AI Powered
-        </h4>
-        <h1 className="text-black text-3xl md:text-5xl font-black mb-1 tracking-tight uppercase z-10 leading-tight">
-          Graphic
-        </h1>
-        <h1 className="text-white text-5xl md:text-7xl font-black mb-2 tracking-tight uppercase z-10 leading-tight">
-          Design
-        </h1>
-        <h1 className="text-black text-4xl md:text-8xl font-black tracking-tight uppercase z-10 leading-tight">
-          Course
-        </h1>
-      </section>
+      {/* ===== Hero Headings ===== */}
+<div className="flex flex-col items-center text-center space-y-3">
+  <h4 className="text-white text-lg md:text-2xl font-black tracking-[0.25em] z-10">
+    AI POWERED
+  </h4>
+  <h1 className="text-black text-3xl md:text-5xl font-black tracking-[0.3em] uppercase z-10 leading-tight">
+    GRAPHIC
+  </h1>
+  <h1 className="text-white text-5xl md:text-7xl font-black tracking-[0.35em] uppercase z-10 leading-tight">
+    DESIGN
+  </h1>
+  <h1 className="text-black text-6xl md:text-8xl font-black tracking-[0.4em] uppercase z-10 leading-tight">
+    COURSE
+  </h1>
+</div>
+
+
+</section>
 
       {/* ===== JOURNEY SECTION ===== */}
       <section className="w-full bg-black px-5 py-10 flex flex-col md:flex-row items-center justify-between gap-10">
@@ -125,9 +129,10 @@ const LandingPage = () => {
   <img
     src="/img (2).png"
     alt="Who Can Join"
-    className="w-full max-w-[400px] sm:max-w-[500px] md:max-w-[550px] lg:max-w-[600px] h-auto object-contain object-center bg-transparent border-none shadow-none"
+    className="w-[70%] sm:w-[65%] md:w-[80%] lg:w-[85%] h-auto object-contain object-center bg-transparent border-none shadow-none transition-all duration-500"
   />
 </div>
+
 
 
 </section>
